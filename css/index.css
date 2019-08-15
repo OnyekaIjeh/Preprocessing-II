@@ -203,6 +203,9 @@ img {
 .home .top-content p {
   padding-bottom: 0;
 }
+.home .top-content img {
+  margin-bottom: 30px;
+}
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
