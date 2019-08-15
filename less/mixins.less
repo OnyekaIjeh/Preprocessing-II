@@ -1,5 +1,13 @@
 // Mixins in here
 
+.flex(@justify: start, @align: stretch, @direction: row, @wrap: wrap) {
+  display: flex;
+  flex-wrap: @wrap;
+  flex-direction: @direction;
+  justify-content: @justify;
+  align-content: @align;
+}
+
 #input {
   .inputStyle(@size: @form-element-base-size) {
     font-size: @size;
