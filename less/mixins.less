@@ -1,20 +1,20 @@
 // Mixins in here
 
 #input {
-  .inputStyle(@size: 1.8rem) {
+  .inputStyle(@size: @form-element-base-size) {
     font-size: @size;
     margin-bottom: 30px;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid @black;
     border-radius: .6em;
     padding: .8em 1em;
   }
 }
 
 #button {
-  .buttonStyle(@size: 1.8rem, @color: #FFFFFF, @backgroundColor: #008080) {
+  .buttonStyle(@size: @form-element-base-size, @color: @white, @background-color: @primary-color) {
     font-size: @size;
-    background-color: @backgroundColor;
+    background-color: @background-color;
     color: @color;
     font-weight: bold;
     text-align: center;
