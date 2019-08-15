@@ -197,6 +197,7 @@ img {
   border-radius: 10px;
 }
 .home .top-content {
+  margin-top: 0;
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
