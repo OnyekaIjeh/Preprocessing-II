@@ -1,6 +1,6 @@
 // Mixins in here
 
-.flex(@justify: start, @align: stretch, @direction: row, @wrap: wrap) {
+.flex(@justify: start; @align: stretch; @direction: row; @wrap: wrap) {
   display: flex;
   flex-wrap: @wrap;
   flex-direction: @direction;
@@ -20,7 +20,7 @@
 }
 
 #button {
-  .buttonStyle(@size: @form-element-base-size, @color: @white, @background-color: @primary-color) {
+  .buttonStyle(@size: @form-element-base-size; @color: @white; @background-color: @primary-color) {
     font-size: @size;
     background-color: @background-color;
     color: @color;

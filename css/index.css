@@ -196,7 +196,9 @@ img {
 .header .container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
+  align-content: stretch;
 }
 .header .logo-content {
   width: 50%;
@@ -211,8 +213,10 @@ img {
 .header .nav-content {
   width: 50%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
+  align-content: stretch;
 }
 @media (max-width: 500px) {
   .header .nav-content {
@@ -222,7 +226,10 @@ img {
 }
 .header .nav-content ul {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-around;
+  align-content: stretch;
 }
 .header .nav-content ul a {
   text-decoration: none;
@@ -239,7 +246,9 @@ img {
   margin: 30px 0;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
+  align-content: stretch;
 }
 .home .content-section .text-content {
   width: 48%;
@@ -317,7 +326,9 @@ img {
   border-bottom: 2px dashed #C0C0C0;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-between;
+  align-content: stretch;
 }
 .home .content-pick .destination {
   width: 30%;
@@ -371,7 +382,7 @@ img {
   font-size: 1.8rem;
   margin-bottom: 30px;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 0.6em;
   padding: 0.8em 1em;
 }
@@ -379,7 +390,7 @@ img {
   font-size: 1.8rem;
   margin-bottom: 30px;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 0.6em;
   padding: 0.8em 1em;
 }
